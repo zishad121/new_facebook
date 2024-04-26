@@ -1,0 +1,215 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+background: #f0f2f5;
+padding: 10px;
+}
+
+.facebook-area{
+height: 80vh;
+}
+
+
+.facebook-area::after{
+
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.w45{
+width: 45%;
+float: left;
+  height: 300px;
+
+
+}
+
+.w45content{
+
+    transform: translate(15rem,12rem);
+
+}
+
+
+.w50{
+width: 50%;
+float: left;
+}
+
+
+.w50content{
+    transform: translate(2rem,5rem);
+    
+}
+
+
+
+.w45 h1{
+color: blue;
+font-weight: bold;
+}
+    
+.w45 h4{
+    color: black;
+    font-weight: bold;
+margin-top: 5px;
+font-size: 25px;
+    }
+      
+
+
+.form-area{
+padding: 10px 0px 10px 10px;
+justify-content: center;
+/* background: #f0f2f5; */
+}
+
+
+input[type="email"],input[type="password"]{
+    display: inline-block;
+
+
+
+width: 270px;
+height: 32px;
+padding: 5px;
+outline: none;
+margin-bottom: 10px;
+border-radius: 5px;
+outline:none ;
+border: none;
+border: 1px solid rgb(242, 230, 230);
+
+}
+input[type="password"]:focus{
+outline: 1px solid blue;
+}
+input[type="email"]:focus{
+
+    outline: 1px solid blue;
+
+}
+
+hr{
+
+   width: 70%; 
+   margin-bottom: 10px;
+   margin-left: 20px;
+}
+
+
+input[type="submit"]{
+    padding: 10px 121px;
+    background: blue;
+    outline:none ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+a[href="1"]{
+
+margin: 15px 0px 15px 60px;
+display: inline-block;
+text-decoration: none;
+}
+
+a[href="2"]{
+    margin: 15px 0px 15px 35px;
+    display: inline-block;
+    background: green;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+
+    }
+
+
+
+
+.create-container{
+margin-top: 10px;
+overflow: hidden;
+margin-left: 20px;
+}
+
+
+
+.one{
+float: left;
+font-weight: bold;
+}
+.one a{
+text-decoration: none;
+
+}
+.two{
+float: left;
+
+} 
+
+
+.finalcontent{
+    background: white;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 7px;
+    }
+
+
+.nirob{
+    margin-left: 15.2rem;
+    margin-bottom: 20px;
+}
+.nirob li{
+    
+    display: inline-block;  
+    margin-left: 4px;
+      
+}
+.nirob a{
+    text-decoration: none;
+}
+
+.nirob a:hover{
+    text-decoration: underline;
+}
+
+
+.hr{margin: 0px 15rem 1rem 15.4rem; border-top: 1px solid rgb(203, 200, 200);}
+.plus{ border: 1px solid black; padding: 1px 5px;}
+
+
+.zishad{
+    margin-left: 15rem;
+}
+.zishad li{
+  display: inline-block;  
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.zishad a{
+text-decoration: none;   
+}
+.zishad a:hover{
+    text-decoration: underline;
+}
+
+.copy{
+margin-top: 10px;
+    margin-left: 15.4rem;
+    font-size: 12px;
+}
+
